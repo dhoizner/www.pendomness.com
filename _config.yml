@@ -19,3 +19,8 @@ author:
 
 # Custom vars
 version:             1.0.0
+
+# RSS vars
+name: Pendomness
+description: Penful Adventures in Randomness
+url: http://pendomness.com
