@@ -1,0 +1,22 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Pendomness
+tagline:             'Penful Adventures in Randomness'
+description:         
+url:                 http://pendomness.com
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Dan Hoizner
+  url:               https://twitter.com/dandon
+  email:             dan.hoizner@gmail.com
+
+# Custom vars
+version:             1.0.0
