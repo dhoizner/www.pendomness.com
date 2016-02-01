@@ -2,6 +2,7 @@
 title: Pen World, Ahoy!
 date: 2016-01-31T20:23:21-05:00
 layout: post
+summary: Welcome post, aka Let's Get the Party Started!
 tags: site
 ---
 
