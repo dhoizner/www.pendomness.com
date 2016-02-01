@@ -5,9 +5,9 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
   <channel>
-    <title>Mikael Konutgan</title>
+    <title>{{ site.name }}</title>
     <link>{{ site.url }}</link>
-    <description>Thoughts on programming and technology</description>
+    <description>{{ site.description }}</description>
     {% for post in site.posts limit:20 %}
       <item>
         <title>{{ post.title }}</title>
