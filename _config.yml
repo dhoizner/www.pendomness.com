@@ -24,3 +24,4 @@ version:             1.0.0
 name: Pendomness
 description: Penful Adventures in Randomness
 url: http://pendomness.com
+timezone: America/New_York
