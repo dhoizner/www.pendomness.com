@@ -19,9 +19,17 @@ author:
 
 # Custom vars
 version:             1.0.0
+timezone: America/New_York
 
 # RSS vars
 name: Pendomness
 description: Penful Adventures in Randomness
 url: http://pendomness.com
-timezone: America/New_York
+
+# gems
+gems:
+  - jekyll-redirect-from
+
+# whitelist
+whitelist:
+  - jekyll-redirect-from
