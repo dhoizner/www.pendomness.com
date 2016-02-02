@@ -4,19 +4,20 @@ redirect_from: /rss/
 ---
 
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
-  <channel>
-    <title>{{ site.name }}</title>
-    <link>{{ site.url }}</link>
-    <description>{{ site.description }}</description>
-    {% for post in site.posts limit:20 %}
-      <item>
-        <title>{{ post.title }}</title>
-        <link>{{ site.url }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}/?utm_source=RSS&amp;utm_medium=RSS&amp;utm_campaign={{ post.title | replace: ',','' | replace: ' ', '' | xml_escape }}</guid>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <description>{{ post.content | xml_escape }}</description>
-      </item>
-    {% endfor %}
-  </channel>
-</rss>
+<feed xmlns="http://www.w3.org/2005/atom">
+	<title>Pendomness</title>
+	<link href="{{ site.url}}/rss/" rel="self" />
+	<link href="{{ site.url }}" />
+	<updated>{{ site.updated }}</updated>
+	<id>{{ site.url }}</id>
+	<author>
+		<name>{{ site.author }}</name>
+	</author>
+	{% for post in site.posts limit:20 %}
+		<title>{{ post.title }}</title>
+		<link href="{{ site.url }}{{ post.url }}" />
+		<updated>{{ post.date | date_to_rfc822 }}</updated>
+		<id>{{ site.url }}{{ post.url }}</id>
+		<content type="html">{{ post.content | xml_escape }}</content>
+	{% endfor %}
+</feed>
