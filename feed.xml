@@ -11,7 +11,7 @@ redirect_from: /rss/
 	<updated>{{ site.updated }}</updated>
 	<id>{{ site.url }}</id>
 	<author>
-		<name>{{ site.author }}</name>
+		<name>{{ site.author.name }}</name>
 	</author>
 	{% for post in site.posts limit:20 %}
 		<title>{{ post.title }}</title>
