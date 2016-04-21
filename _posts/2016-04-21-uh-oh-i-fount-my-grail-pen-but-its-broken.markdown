@@ -7,7 +7,7 @@ tags: penshow
 ---
 ![Atlanta Pen Show](/images/grail-pen-broken/atlanta-header.jpg)
 
-I am finally recovering from this past weekend's adventures at the [Atlanta Pen Show](http://atlantapenshow.com) (more detailed recap to come), and wanted to relay the story of one of the most memorable purchases I have ever made.
+I am finally recovering from this past weekend's adventures at the [Atlanta Pen Show](http://atlantapenshow.com), and wanted to relay the story of one of the most memorable purchases I have ever made.
 
 As I was wandering the show halls on Friday, bleary-eyed from lack of sleep, out of the corner of my eye I caught sight of a pen. A pen that has long been out of production; a pen that almost never comes up for sale. It just so happens that this is a pen that my friend, [Thomas Hall](http://penucopia.com), has been talking to me about for months. The [OMAS T2](http://nibs.com/OmasT2LimitedEdition.htm).
 
