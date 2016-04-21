@@ -1,0 +1,10 @@
+.image-wrapper {
+    text-align: center;
+}
+
+.image-wrapper .image-caption {
+    color: #d28445;
+    font-size: 14px;
+    margin-top: 1rem;
+    line-height: 0.5;
+}
