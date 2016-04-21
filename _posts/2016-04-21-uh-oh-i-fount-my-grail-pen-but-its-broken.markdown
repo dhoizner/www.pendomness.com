@@ -37,7 +37,7 @@ I had taken a few seconds to process what had just happened and wanted to make s
 At this point, my guts are turning, my heart has dropped to my stomach, and I have no idea what to do. Thomas and Leigh succeeded in calming me down, and I resigned myself to the need for sending the pen out for repair. After all, what is spending a bit more money on restoring a no-longer-available pen to a fully-functional state?
 
 {% include image.html
-            img="/images/grail-pen-broken/broken-two.jpg"
+            img="/images/grail-pen-broken/broken-three.jpg"
             title="Note the opening down the middle of the piston assembly, avoid when glueing. Image courtesy of Thomas Hall."
             caption="Note the opening down the middle of the piston assembly, avoid when glueing. Image courtesy of Thomas Hall." %}
 
