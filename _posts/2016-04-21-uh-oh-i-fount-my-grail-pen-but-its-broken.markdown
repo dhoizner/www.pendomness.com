@@ -1,5 +1,7 @@
 ---
 title: Uh Oh, I Found My Grail Pen, But It's Broken!
+redirect_from:
+  - /2016/04/21/uh-oh-i-found-my-grail-pen-but-its-broken/
 date: 2016-04-21T00:58:00-05:00
 layout: post
 summary:
