@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: /about/
 ---
 
 Pendomness is written by [Dan Hoizner](https://twitter.com/dandon) and started out its life as a fun way to explore random adventures in the world of pens and all related <s>addictions</s> hobbies. Other corners of the internet that I inhabit include:
