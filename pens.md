@@ -6,33 +6,39 @@ permalink: /pens/
 
 {% include data_tables.html %}
 
-<!--
 <script>
   $(document).ready( function () {
-    $('#inks').DataTable( {
+    $('#pens').DataTable( {
       paging: false
       } );
     });
 </script>
 
-<table id="inks" class="display compact" cellspacing="0" width="100%">
+<table id="pens" class="display compact" cellspacing="0" width="100%">
   <thead>
     <tr>
       <th>Brand</th>
-      <th>Family</th>
-      <th>Name</th>
-      <th>Details</th>
+      <th>Model</th>
+      <th>Sub-Model</th>
+      <th>Color</th>
+      <th>Nib(s)</th>
+      <th>Type</th>
+      <th>Country</th>
+      <th>Sell?</th>
     </tr>
   </thead>
   <tbody>
-    {% for ink in site.data.inks %}
+    {% for pen in site.data.pens %}
       <tr>
-        <td>{{ ink.Brand }}</td>
-        <td>{{ ink.Family }}</td>
-        <td>{{ ink.Name }}</td>
-        <td>{{ ink.Details }}</td>
+        <td>{{ pen.Brand }}</td>
+        <td>{{ pen.Model }}</td>
+        <td>{{ pen.Sub-Model }}</td>
+        <td>{{ pen.Color }}</td>
+        <td>{{ pen.Nibs }}</td>
+        <td>{{ pen.Type }}</td>
+        <td>{{ pen.Country }}</td>
+        <td>{{ pen.Sell? }}</td>
       </tr>
     {% endfor %}
   </tbody>
 </table>
--->
