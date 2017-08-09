@@ -27,8 +27,9 @@ description: Penful Adventures in Randomness
 url: http://www.pendomness.com
 
 # gems
-gems:
+plugins:
   - jekyll-redirect-from
+  - _plugins
 
 # whitelist
 whitelist:
